@@ -25,8 +25,6 @@ This scenario is a typical situation for the IT security department to investiga
 | Test Scope | Test vm only (No production machine or real user data) |
 | Live System Analysis | Task Manager, Resource Monitor, Fsutil |
 | Windows Registry Analysis | Registry Editor (Regedit) |
-| Forensic Image Analysis | Paraben's E3 |
-
 
 ## ***Steps Performed***
 
