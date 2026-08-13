@@ -45,7 +45,7 @@ From the workstation desktop, **right click** anywhere on the taskbar, then sele
 
 In the Task Manager, **click** the **Performance tab** to display information about resource usage. From the bottom of the Task Manager, **click** the **Open Resource Monitor link** to launch the Resource Monitor. In the Resource Monitor, **click** the **Network tab** to display a list of processes that are currently generating network activity. On the Network tab, **expand** the **Listening Ports header** to display a list of ports that are actively listening and the processes that are using them. Close the **Resource Monitor** and **Task Manager windows**.
 
-  (PICTURE)
+  ![Screenshot](Screenshots/A2.png)
 
   >**Note**: The Resource Monitor is a dedicated utility for monitoring system resource usage in real time, including CPU, memory usage, disk utilization, and network use. When the Resource Monitor contains many of the same metrics as the         Performance Tab, it allows knowledgeable users to drill deeper into the underlying data.
 
