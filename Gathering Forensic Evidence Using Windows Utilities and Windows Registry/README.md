@@ -8,9 +8,11 @@ Using Windows utilities to inspect active processes, network activity, and file 
 
 ## Business Scenario
 
-A company's Information Technology department received an alert indicating that an employee's workstation has accessed several restricted company folders outside of the employee's normal working hours. The folders contain proprietary financial reports, internal business documents, and customer related information. Security logs showed several unusual file-access events occurring late at night shortly before a large amount of data was copied from an employee's workstation. Management was concerned that the employee's computer may have been used to access or copy proprietary information without authorization. The company also discovered a USB storage device had recently been connected to the workstation.
+>Over the past week, several employees report unusual behavior on their workstations—applications freezing, unexpected pop‑ups, and slow network performance during off‑hours. At the same time, the company’s monitoring systems flag irregular login patterns from a workstation that normally shows minimal activity. The device appears to be communicating with external servers that are not part of any approved business workflow.
+>Management becomes concerned that the workstation may have been compromised, potentially exposing sensitive internal data or providing a foothold for unauthorized access. To determine whether the activity is legitimate, accidental, or malicious, the IT security department is tasked with conducting a detailed investigation into the system’s behavior, recent changes, and any traces of user or application activity that could explain the anomalies.
 
-Since the activity could represent a violation of the company's acceptable-use and information security policies, the company's IT security manager authorized a digitial forensic investigation.
+This scenario is a typical situation for the IT security department to investigate and provide outcomes.
+
 
 
 
