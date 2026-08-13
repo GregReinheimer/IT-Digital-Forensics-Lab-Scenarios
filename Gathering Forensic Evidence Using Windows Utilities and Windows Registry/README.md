@@ -36,7 +36,7 @@ This scenario is a typical situation for the IT security department to investiga
    
 From the workstation desktop, **right click** anywhere on the taskbar, then select **Task Manager** from the context menu to open the Task Manager. In the Task Manager, **right click** the **Name Column header**, then **select Command line** from the context menu to add the Command line column. **Identify** one of the core Windows processes listed above, then **right click** the process and **select properties** from the context menu to display additional information about the process in the Properties window. Then close the properties window.
 
-  (PICTURE)
+  ![Screenshot](Screenshots/screenshot2026-08-10191519.png)
 
    >**Note**: By adding the Command line column, you can observe the file path for each process's executable file, as well as       any command line options that were used to launch the program. For forensic investigators it can be a valuable source of  detailed information when attempting to analyze and isolate malware that has been running since the start of the system.
 
