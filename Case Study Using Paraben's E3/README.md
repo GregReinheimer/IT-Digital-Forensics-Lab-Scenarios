@@ -23,9 +23,9 @@ Since the activity could represent a violation of the company's acceptable-use a
 
 ## ***Steps Performed***
 
-### Part 1: Gather Basic System Information
+### Part 1:
 
-#### Step 1.1: Open Task Manager, add the command line column, and identify a core process in the properties window
+#### Step 1.1: 
 
 
 
