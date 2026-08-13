@@ -1,8 +1,8 @@
-# Investigating Windows using Paraben's E3
+# Gathering Forensic Evidence Using Windows Utilities and Windows Registry
 
 ## Objective
 
-Using several utilities to perform live analysis on a Windows Server 2019 system, by first exploring evidence-rich areas of the Windows operating system - the Windows Registry. Then investigating the Windows drive image and conducting forensic analysis by using Paraben's E3 to explore: NTFS file system, Windows Registry on Windows 10 drive image, and Windows artifacts (link files and browser history.
+Using several utilities to perform live analysis on a Windows Server 2019 system, by exploring evidence-rich areas of the Windows operating system using the Windows utilities and the Windows Registry. Then investigating the Windows drive image and conducting forensic analysis by using Paraben's E3 to explore: NTFS file system, Windows Registry on Windows 10 drive image, and Windows artifacts (link files and browser history.
 
 ## Business Scenario
 
