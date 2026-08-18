@@ -148,7 +148,7 @@ In the Registry Editor, naviaget to the following keys:
 ---
 ## Troubleshooting Logic
 
-| Symptoms | Causes | Resolution |
+| Symptoms | Potential Causes | Possible Resolution |
 |---|---|---|
 | applications fail to start, login issues, broken user files | malware tampering, improper software removal, registry corruption | compare keys against known good baselines, restore from registry backup, reinstall affected apps |
 | files appearing/disappearing without user action, suspicious extensions | malware execution, automated scripts, unathorized activity| review usn journal entries for timestamps and file IDs, use fsutil to locate file paths |
