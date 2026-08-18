@@ -56,9 +56,8 @@ In the Task Manager, **click** the **Performance tab** to display information ab
 
 Open the **Command Prompt** and type `fsutil fsinfo ntfsinfo c:` and **press enter** to display information about the c: drive.
 
-    ![Screenshot](Screenshots/A3.png)
-    ![Screenshot](Screenshots/A3.png)
-
+   ![Screenshot](Screenshots/A3.png)
+  
    >**Note**: The output of this command provides information about the c: drive, inlcuding the NTFS volume serial number,       version, number of total clusters, number of free clusters, total number of sectors, and more. In forensic investigations, this information can be used to determine if there is hidden data in a boot file or boot record of the drive. Also it can be used to determine if there are fake bad clusters, which are areas of the drive that the file system ignores due to damage, but are in fact viable and used to hide data.
 
 ---
@@ -67,7 +66,7 @@ Open the **Command Prompt** and type `fsutil fsinfo ntfsinfo c:` and **press ent
 At the command prompt, type `fsutil usn queryjournal c:` and **press enter** to display information related to the update sequence number changes journal. Then, type `fsutil usn readjournal c:` and **press enter** to display all records in the usn journal.
 >After allowing the command to run for about 10 seconds, **press ctrl+c** to terminate it.
 
-    (PIC)
+   ![Screenshot](Screenshots/A4.png)
 
   >**Note**: This information can be useful for several reasons. First, when a program is run, typically you will be able to       see the modified prefetch files, which will give you a timestamp for execution. Second, the usn journal can provide         evidence of deleted files. Third, you can see file modifications and creation of specific particular file extensions, such as executbale, which in some contexts can be indicative of a system compromise. Many compromises occur after a piece of file-based malware is initially run, like from a macro or PDF. The usn journal can provide a timeline of           initial infection.
 
@@ -78,9 +77,9 @@ On the desktop, **right click** on empty space and **select New → Text Documen
 At the command prompt, type `fsutil file queryFileNameById c:\ 0xFile ID`, where File ID is the value you copied from the previous command output (paste), then **press enter** to retrieve the file path associated with the file ID.
 >The file ID should be the long hexadecimal number directly to the right of the word "Archive".
 
-  (PICTURE)
+  ![Screenshot](Screenshots/A5.png)         ![Screenshot](Screenshots/A6.png)      
 
-  (PICTURE)
+  
 
   
 ---
