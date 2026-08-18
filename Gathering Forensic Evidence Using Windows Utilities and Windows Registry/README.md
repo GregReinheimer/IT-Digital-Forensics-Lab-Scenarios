@@ -77,10 +77,7 @@ On the desktop, **right click** on empty space and **select New → Text Documen
 At the command prompt, type `fsutil file queryFileNameById c:\ 0xFile ID`, where File ID is the value you copied from the previous command output (paste), then **press enter** to retrieve the file path associated with the file ID.
 >The file ID should be the long hexadecimal number directly to the right of the word "Archive".
 
-  ![Screenshot](Screenshots/A5.png)         ![Screenshot](Screenshots/A6.png)      
-
-  
-
+![Screenshot](Screenshots/A5.png)
   
 ---
 ### Part 2: Explore the Registry
@@ -102,7 +99,7 @@ In the right pane, **select** the **InstallDate value** to open the Edit DWORD V
 
   >**Note**: Value data in the Windows Registry is commonly stored in the hexadecimal notation.
 
-  (PICTURE)
+  ![Screenshot](Screenshots/A6.png)
 
   ---
 #### Step 2.3 : Collect the required registry keys for the network interfaces and the windows login function.
@@ -114,11 +111,13 @@ In the Registry Editor, navigate to the following keys:
 
 >This key contains information about the default network interfaces for the workstation, including IP address and default gateway.
 
+   ![Screenshot](Screenshots/A7.png)
+
   -  `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Winlogin`
 
 >Winlogon is a common target for several threats that could modify its function and memory usage. Signs of increased memory usage for this process might indicate that it has been compromised.
 
-  (PICTURE) (PICTURE)
+ ![Screenshot](Screenshots/A8.png)
   
 ---
 #### Step 2.4: Collect the required registry keys related to the current user account: Shell Bags and RecentDocs
@@ -126,14 +125,16 @@ In the Registry Editor, navigate to the following keys:
 In the Registry Editor, naviaget to the following keys:
 
   -  `HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Bags`
-    
+
 >The information in Shell Bags can be vital to providing non-repudiation of claims that a defendant was not aware of a particular folder on their computer.
+
+![Screenshot](Screenshots/A9.png)
     
   -  `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs`
     
 >Within this key you can see hexadecimal records for the last 10 files that the current user accessed through the File Explorer.
 
-    (PICTURE)(PICTURE)
+![Screenshot](Screenshots/A10.png)
 
 ---
 
