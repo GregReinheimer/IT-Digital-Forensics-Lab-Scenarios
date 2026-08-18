@@ -56,7 +56,7 @@ In the Task Manager, **click** the **Performance tab** to display information ab
 
 Open the **Command Prompt** and type `fsutil fsinfo ntfsinfo c:` and **press enter** to display information about the c: drive.
 
-    (PIC)
+    ![Screenshot](Screenshots/A3.png)
 
    >**Note**: The output of this command provides information about the c: drive, inlcuding the NTFS volume serial number,       version, number of total clusters, number of free clusters, total number of sectors, and more. In forensic investigations, this information can be used to determine if there is hidden data in a boot file or boot record of the drive. Also it can be used to determine if there are fake bad clusters, which are areas of the drive that the file system ignores due to damage, but are in fact viable and used to hide data.
 
